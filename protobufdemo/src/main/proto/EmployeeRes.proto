@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+import "Employee.proto";
+package com.learn;
+
+message EmployeeRes{
+
+  repeated Employee employees = 1;
+}

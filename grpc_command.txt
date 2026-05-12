@@ -1,0 +1,1 @@
+grpcurl -plaintext -import-path "C:\Users\Legion\Documents\POC\GRPC\stock-trading-server\src\main\proto" -proto stock_trading.proto -d @ localhost:9090 StockTradingService/bulkStockOrder < "C:\Users\Legion\Documents\POC\GRPC\order.txt"

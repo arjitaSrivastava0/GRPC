@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+package com.learn;
+
+message EmployeeDto {
+
+  int32 id = 1;
+}

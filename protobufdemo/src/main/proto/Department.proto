@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+package com.learn;
+
+message Department{
+
+  int32 id = 1;
+  string name = 2;
+}

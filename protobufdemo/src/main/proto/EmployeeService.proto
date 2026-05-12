@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+package com.learn;
+import "Employee.proto";
+import "EmployeeRes.proto";
+import "Empty.proto";
+
+
+service EmployeeService {
+  //get employee by id
+
+  //rpc methods or contract
+  rpc getEmployee(Employee) returns(Employee);
+
+  //add employee
+  rpc addEmployee(Employee) returns(Employee);
+
+  //get all employees
+  rpc getAllEmployees(Empty) returns(EmployeeRes);
+}
